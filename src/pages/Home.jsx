@@ -24,17 +24,21 @@ Mulai dari gunting rambut, facial, makeup, hingga hairspa. Semua dilakukan denga
 Rasakan pelayanan terbaik yang memahami kebutuhan setiap wanita.
             </p>
             <div className="space-x-4">
-              <button className="bg-primary text-white cursor-pointer px-6 py-2 rounded hover:bg-brown-600">
+              <a href="/booking-form">
+                <button className="bg-primary text-white cursor-pointer px-6 py-2 rounded hover:bg-brown-600">
                 Booking Sekarang
               </button>
-              <button className="border border-brown-500 cursor-pointer text-primary px-6 py-2 rounded hover:bg-brown-100">
+              </a>
+             <a href="/layanan">
+               <button className="border border-brown-500 cursor-pointer text-primary px-6 py-2 rounded hover:bg-brown-100">
                 Lihat Layanan
               </button>
+             </a>
             </div>
           </div>
           <div className="flex-1">
             <img
-              src="https://via.placeholder.com/600x400"
+              src="/home.jpg"
               alt="Hero"
               className="rounded w-full"
             />

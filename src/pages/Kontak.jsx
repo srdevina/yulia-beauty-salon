@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 export default function Kontak() {
   const [form, setForm] = useState({
     nama: "",
-    email: "",
+    notelpon: "",
     pesan: "",
   });
 
@@ -20,7 +20,7 @@ export default function Kontak() {
 
     const formData = new FormData();
     formData.append("nama", form.nama);
-    formData.append("email", form.email);
+    formData.append("notelpon", form.notelpon);
     formData.append("pesan", form.pesan);
 
     try {
@@ -30,7 +30,7 @@ export default function Kontak() {
 
       if (res.status == 200) {
         toast.success("Pesan berhasil dikirim!");
-        setForm({ nama: "", email: "", pesan: "" });
+        setForm({ nama: "", notelpon: "", pesan: "" });
       } else {
         toast.error(res.data.message || "Gagal mengirim pesan.");
       }
@@ -79,11 +79,11 @@ export default function Kontak() {
                   className="w-full border rounded px-3 py-2"
                 />
                 <input
-                  type="email"
-                  name="email"
+                  type="notelpon"
+                  name="notelpon"
                   value={form.email}
                   onChange={handleChange}
-                  placeholder="Email"
+                  placeholder="No. Telpon"
                   required
                   className="w-full border rounded px-3 py-2"
                 />

@@ -60,7 +60,7 @@ export default function KontakAdmin() {
                   <tr className="bg-gray-100">
                     <th className="border px-4 py-2">No</th>
                     <th className="border px-4 py-2">Nama</th>
-                    <th className="border px-4 py-2">Email</th>
+                    <th className="border px-4 py-2">No. Telpon</th>
                     <th className="border px-4 py-2">Pesan</th>
                     <th className="border px-4 py-2">Tanggal</th>
                     <th className="border px-4 py-2">Aksi</th>
@@ -73,7 +73,7 @@ export default function KontakAdmin() {
                         {index + 1}
                       </td>
                       <td className="border px-4 py-2">{item.nama}</td>
-                      <td className="border px-4 py-2">{item.email}</td>
+                      <td className="border px-4 py-2">{item.notelpon}</td>
                       <td className="border px-4 py-2">{item.pesan}</td>
                       <td className="border px-4 py-2">
                         {item.created_at || "-"}
@@ -102,7 +102,7 @@ export default function KontakAdmin() {
                   <p className="font-bold text-primary">
                     {index + 1}. {item.nama}
                   </p>
-                  <p className="text-sm text-gray-600">{item.email}</p>
+                  <p className="text-sm text-gray-600">{item.notelpon}</p>
                   <p className="mt-2">{item.pesan}</p>
                   <p className="text-xs text-gray-500 mt-2">
                     {item.created_at || "-"}
