@@ -81,7 +81,7 @@ export default function Kontak() {
                 <input
                   type="notelpon"
                   name="notelpon"
-                  value={form.email}
+                  value={form.notelpon}
                   onChange={handleChange}
                   placeholder="No. Telpon"
                   required

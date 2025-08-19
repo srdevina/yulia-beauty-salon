@@ -38,10 +38,11 @@ export default function Galeri() {
     <>
       <NavClient />
       <div className="bg-white min-h-screen p-6">
-        <p className="text-primary text-center">Lihat hasil karya tim profesional kami yang telah membuat banyak klien puas.</p>
         <h1 className="text-2xl font-bold text-center mb-8 text-primary">
           Galeri
         </h1>
+        <p className="text-primary text-center mb-8">Buktikan sendiri – hasil yang memukau, layanan yang memuaskan! </p>
+
 
         {loading ? (
           <p className="text-center">Memuat galeri...</p>

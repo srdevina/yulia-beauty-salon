@@ -31,7 +31,10 @@ export default function Register() {
 
   return (
     <div className="max-w-md mx-auto p-6 bg-white rounded shadow">
-      <h2 className="text-xl font-bold mb-4">Register Admin</h2>
+      <div className="mx-auto text-center flex justify-center w-full">
+          <img src="/logo.png" alt="" />
+        </div>
+      <h2 className="text-center text-xl font-bold mb-4">Register Admin</h2>
       {message && <p className="mb-4 text-red-500">{message}</p>}
       <form onSubmit={handleSubmit} className="space-y-4">
         <input

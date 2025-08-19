@@ -49,6 +49,7 @@ export default function Layanan() {
           </p>
         ) : (
           <>
+          <h1 className="text-center text-5xl text-primary mb-12 font-bold ">Layanan</h1>
             <p className="text-center text-primary mb-10">
               Kami menawarkan berbagai perawatan kecantikan yang dirancang untuk
               memenuhi kebutuhan Anda.

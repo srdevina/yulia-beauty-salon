@@ -2,9 +2,9 @@ import Footer from "../components/Footer";
 import GaleriSnap from "../components/GaleriSnap";
 import LayananSnap from "../components/LayananSnap";
 import NavClient from "../components/NavClient";
-import KlienReview from "./KlienReview";
+import ReviewSnap from "../components/ReviewSnap";
 
-export default function Home() {
+export default function Dashboard() {
   return (
     <>
       {/* Navbar */}
@@ -48,7 +48,7 @@ Rasakan pelayanan terbaik yang memahami kebutuhan setiap wanita.
 
       <section className="py-12">
         <div className="max-w-7xl mx-auto px-6 text-center">
-          <h3 className="text-2xl font-bold mb-8">Jenis Perawatan Kami</h3>
+          <h3 className="text-2xl font-bold mb-8">Jenis Layanan Kami</h3>
           <LayananSnap />
           <button
             onClick={() => (window.location.href = "/layanan")}
@@ -59,7 +59,7 @@ Rasakan pelayanan terbaik yang memahami kebutuhan setiap wanita.
         </div>
       </section>
 
-      <KlienReview />
+      <ReviewSnap />
       <GaleriSnap />
 
       {/* Footer */}

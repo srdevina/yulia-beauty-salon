@@ -6,13 +6,16 @@ const NavClient = () => {
           <a href="/"><img src="/logo.png" alt="" /></a>
           <nav className="space-x-6 ">
             <a href="/" className="text-primary">
-              Home
-            </a>
+              Dashboard            
+              </a>
             <a href="/layanan" className="text-primary">
               Layanan
             </a>
             <a href="/galeri" className="text-primary">
               Galeri
+            </a>
+            <a href="/ulasan" className="text-primary">
+              Ulasan
             </a>
             <a href="/tentang-kami" className="text-primary">
               Tentang Kami

@@ -50,7 +50,7 @@ export default function BookingForm() {
             }
 
             window.location.href =
-              "https://wa.me/62895412988459?text=Halo%20Yulia%20Beauty%20Salon,%20saya%20sudah%20melakukan%20pembayaran.";
+              "https://wa.me/62895412988459?text=Halo%20Yulia%20Beauty%20Salon,%20saya%20sudah%20melakukan%20pembayaran%20booking.";
           },
           onPending: function (result) {
             alert("Waiting for payment...");

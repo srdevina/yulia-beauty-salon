@@ -26,7 +26,7 @@ const GaleriSnap = () => {
   return (
     <section className="py-12">
       <div className="max-w-7xl mx-auto px-6 text-center">
-        <p className="text-center text-primary">Karya terbaik kami dalam berbagai perawatan kecantikan.</p>
+        <p className="text-center text-primary">Karya terbaik kami dalam berbagai layanan kecantikan.</p>
         <h3 className="text-2xl font-bold mb-8 text-primary">Galeri Hasil Salon</h3>
         <div className="grid md:grid-cols-3 gap-6">
           {galeri.length === 0 ? (

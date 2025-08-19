@@ -3,7 +3,7 @@ import { Toaster } from 'react-hot-toast';
 
 import "./App.css";
 
-import Home from "./pages/Home";
+import Home from "./pages/Dashboard";
 import Layanan from "./pages/Layanan";
 import LayananAdmin from "./pages/admin/LayananAdmin";
 import BookingForm from "./pages/BookingForm";
@@ -11,6 +11,7 @@ import Kontak from "./pages/Kontak";
 import KontakAdmin from "./pages/admin/KontakAdmin";
 import TentangKami from "./pages/TentangKami";
 import Galeri from "./pages/Galeri";
+import Ulasan from "./components/ReviewSnap";
 import GaleriAdmin from "./pages/admin/GaleriAdmin";
 import ReviewAdmin from "./pages/admin/ReviewAdmin";
 import BookingAdmin from "./pages/admin/BookingAdmin";
@@ -39,6 +40,7 @@ function App() {
         <Route path="/kontak" element={<Kontak/>} />
         <Route path="/tentang-kami" element={<TentangKami/>} />
         <Route path="/galeri" element={<Galeri/>} />
+        <Route path="/ulasan" element={<Ulasan/>} />
       </Routes>
     </>
   );

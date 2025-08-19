@@ -1,9 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
-import NavClient from "../components/NavClient";
 
 export default function KlienReview() {
-
   const [ulasan, setUlasan] = useState([]);
   const [visible, setVisible] = useState(3);
   const [loading, setLoading] = useState(false);
@@ -44,8 +42,6 @@ export default function KlienReview() {
   };
 
   return (
-    <>
-    <NavClient />
     <section className="bg-secondary py-12">
       <div className="max-w-7xl mx-auto px-6 text-center ">
         <h3 className="text-2xl font-bold mb-2 text-primary">
@@ -97,7 +93,5 @@ export default function KlienReview() {
         )}
       </div>
     </section>
-    <Footer />
-    </>
   );
 }
